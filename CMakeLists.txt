@@ -1,4 +1,4 @@
 project(tasksched)
 
 add_definitions(-std=c++11)
-add_executable(tasksched tasksched.cpp)
+add_executable(tasksched tasksched.cpp task_worker.cpp)
